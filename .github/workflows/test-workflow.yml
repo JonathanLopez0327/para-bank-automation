@@ -13,19 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the code from the repository
       - name: Checkout code
         uses: actions/checkout@v3
-
-      # Step 2: Set up Node.js environment
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Cypress.io
+        uses: cypress-io/github-action@v2.9.7
         with:
-          node-version: 20
+          start: npm start
 
-      # Step 3: Install and run Cypress
-      - name: Install and run Cypress
-        uses: cypress-io/github-action@v4
-        with:
-          node-version: 20
-          install-command: npm install
