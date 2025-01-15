@@ -6,7 +6,7 @@ This repository contains the automated test suite for the [ParaBank](https://par
 
 Before getting started, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [Node.js](https://nodejs.org/) (version 20 or higher)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 - [Cypress](https://www.cypress.io/)
 - [TypeScript](https://www.typescriptlang.org/)
