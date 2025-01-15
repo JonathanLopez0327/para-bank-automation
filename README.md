@@ -69,12 +69,6 @@ Before getting started, ensure you have the following installed:
 4. Push to your branch.
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
 - [ParaBank](https://parabank.parasoft.com/parabank/index.htm) for the demo application.
 - [Cypress Documentation](https://docs.cypress.io/) for providing comprehensive resources.
 
