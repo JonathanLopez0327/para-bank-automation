@@ -1,0 +1,28 @@
+# Logs
+*.log
+cypress/screenshots/
+cypress/videos/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Cypress configuration and cache
+cypress.env.json
+.cypress-cache/
+
+# IDE/editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+*.DS_Store
+._*
+.Spotlight-V100
+.Trashes
