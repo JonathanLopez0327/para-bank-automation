@@ -30,13 +30,3 @@ jobs:
       # Step 4: Run Cypress tests
       - name: Run Cypress tests
         run: npx cypress run
-
-      # Optional: Upload screenshots and videos as artifacts for debugging
-      - name: Upload Cypress artifacts
-        if: failure()
-        uses: actions/upload-artifact@v3
-        with:
-          name: cypress-artifacts
-          path: |
-            cypress/screenshots/
-            cypress/videos/
