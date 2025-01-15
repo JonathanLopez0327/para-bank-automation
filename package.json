@@ -6,7 +6,7 @@
     "cypress:open": "cypress open --config-file cypress.config.ts",
     "cypress:run": "cypress run --config-file cypress.config.ts",
     "build": "tsc", 
-    "start": "cypress open --config-file cypress.config.ts"
+    "start": "npm run cypress:open"
   },
   "keywords": [],
   "author": "",
